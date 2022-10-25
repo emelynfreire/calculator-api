@@ -23,6 +23,8 @@ para desativar: deactivate
 python manage.py runserver
 ```
 
-## 3. Exemplo de execução da aplicaç
+## 3. Exemplo de execução da aplicação
 
 <img src="https://github.com/emelynfreire/calculator-api/blob/main/core/src/assets/imgs/exemplo1.png?raw=true">
+
+
