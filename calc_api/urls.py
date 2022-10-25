@@ -19,6 +19,7 @@ from core import views #importação do app core para configurar rotas
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index), #rota inicial do projeto
     #path('hello/', views.hello_world),#retorna a função hello_world da views de core
     #path('hello/<nome>/', views.primeiro_nome), #retorna a função primeiro_nomeda views de core
     #path('hello/<nome>/<int:idade>/', views.nome_com_idade), #retorna a função nome_com_idadec da views de core

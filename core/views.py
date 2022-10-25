@@ -2,7 +2,8 @@ from django.shortcuts import render, HttpResponse
 
 
 #Criação de função e visualizações dos client
-
+def index(request):
+    return HttpResponse('Hello World!!')
 def soma(request, x, y):
     return HttpResponse('Soma: {} '.format(x+y))
 
